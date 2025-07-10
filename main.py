@@ -1,5 +1,5 @@
 """
-RunPod serverless worker for 🤗 Diffusers IMAGE GENERATION models only
+RunPod serverless worker for 🤗 Diffusers IMAGE GENERATION models only test
 """
 import os, tempfile, json, inspect, base64, io
 import torch

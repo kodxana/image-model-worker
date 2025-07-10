@@ -1,7 +1,8 @@
 """
 RunPod serverless worker for 🤗 Diffusers IMAGE GENERATION models only test
 """
-import os, tempfile, json, inspect, base64, io
+import os, tempfile, json, inspect, base64
+import io
 import torch
 from diffusers import DiffusionPipeline
 from PIL import Image
